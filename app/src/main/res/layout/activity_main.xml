@@ -59,4 +59,21 @@
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toTopOf="@+id/button5" />
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="110dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="76dp"
+        android:layout_height="128dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+
 </android.support.constraint.ConstraintLayout>
